@@ -165,9 +165,14 @@ CloudFormation stack shows clear resource relationships (Lambda → API → IAM)
 
 Successfully deployed serverless API via SAM (CloudFormation stack sam-app).
 
-Before: {"result": "These are not the contents you are looking for."}
-
-After: {"result": "Welcome to AWS Lambda!"} (from S3 object1).
+Before: 
+```python
+{"result": "These are not the contents you are looking for."}
+```
+After: 
+```python
+{"result": "Welcome to AWS Lambda!"} (from S3 object1).
+```
 
 Coursera course: Python for Serverless Applications and Automation on AWS (completion cert pending).
 
