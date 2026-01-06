@@ -140,7 +140,8 @@ Boto3 get_object() returns StreamingBody; use .read() for string contents.
 
 SAM enables fast iterations (build/deploy in seconds).
 
-Key Learnings & Best Practices
+### Key Learnings & Best Practices
+
 SAM workflow: template.yaml → sam build (package) → sam deploy (CloudFormation stack).
 
 Use HTTP APIs (not REST APIs) for simple, low-cost serverless backends.
@@ -151,7 +152,7 @@ Verify S3 object contents with aws s3 cp or console download.
 
 AWS Code Editor is ideal for browser-based serverless dev without local setup.
 
-🌟 Observations & Console Evolution
+### Observations & Console Evolution
 
 SAM CLI auto-saves deploy params to samconfig.toml (no re-prompts on redeploy).
 
@@ -161,7 +162,7 @@ API Gateway HTTP APIs have simpler auth (no CORS issues in basic GET tests).
 
 CloudFormation stack shows clear resource relationships (Lambda → API → IAM).
 
-Evidence of Completion
+### Evidence of Completion
 
 Successfully deployed serverless API via SAM (CloudFormation stack sam-app).
 
