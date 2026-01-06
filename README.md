@@ -151,7 +151,7 @@ Verify S3 object contents with aws s3 cp or console download.
 
 AWS Code Editor is ideal for browser-based serverless dev without local setup.
 
-### 🌟Observations & Console Evolution
+### 🌟 Observations & Console Evolution
 
 SAM CLI auto-saves deploy params to samconfig.toml (no re-prompts on redeploy).
 
