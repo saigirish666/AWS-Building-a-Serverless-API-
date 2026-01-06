@@ -17,8 +17,7 @@ This project demonstrates building, deploying, and testing a serverless HTTP API
   - [5. Update Lambda to Read S3 Object](#5-update-lambda-to-read-s3-object)  
 - [Key Learnings & Best Practices](#key-learnings--best-practices)  
 - [🌟 Observations & Console Evolution](#-observations--console-evolution)  
-- [Evidence of Completion](#evidence-of-completion)  
-- [📌 Related Projects](#-related-projects)  
+- [Evidence of Completion](#evidence-of-completion)   
 
 ---
 
@@ -152,7 +151,7 @@ Verify S3 object contents with aws s3 cp or console download.
 
 AWS Code Editor is ideal for browser-based serverless dev without local setup.
 
-### Observations & Console Evolution
+### 🌟Observations & Console Evolution
 
 SAM CLI auto-saves deploy params to samconfig.toml (no re-prompts on redeploy).
 
